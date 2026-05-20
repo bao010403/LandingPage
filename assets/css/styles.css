@@ -67,6 +67,8 @@ a {
 }
 
 .hero-wrap {
+  display: flex;
+  align-items: center;
   height: calc(100vh - 90px);
   background: #e6f0ff;
   position: relative;
@@ -153,7 +155,7 @@ a {
   position: absolute;
   bottom: 0;
   right: calc((100vw - 1110px) / 2 - 50px);
-  height: 80%;
+  height: 90%;
 }
 
 /* ======== Clients ======== */
